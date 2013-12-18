@@ -4,8 +4,8 @@ and will print it in a nice table. More features like database storage and data 
 are in the pipeline
 #Usage
 to run use
+
     java -jar /path/to/jar/jetfetch-v1-standalone.jar origin-city destination-city
-    
     Concrete example:
     java -jar ~/awesomeapps/jetfetch-v1-standalone.jar delhi mumbai
 

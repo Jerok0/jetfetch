@@ -1,36 +1,22 @@
-# jetfetch
-
-FIXME: description
+# JetFetch
+JetFetch is a simple script which will fetch airline information given a origin and a destination Indian city as arguments
+and will print it in a nice table. More features like database storage and data building, queries and international flight support
+are in the pipeline
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Clone this repo.
 
 ## Usage
-
-FIXME: explanation
-
-    $ java -jar jetfetch-0.1.0-standalone.jar [args]
-
+  $ java -jar jetfetch-0.1.0-standalone.jar origin-city destination-city
 ## Options
-
-FIXME: listing of options this app accepts.
-
+Currently only two required arguments must be passed to the jar, the origin city and the destination
 ## Examples
-
-...
-
+    java -jar ~/awesomeapps/jetfetch-v1-standalone.jar delhi mumbai
 ### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
+1. Non existent cities cause major breakdown.
+1. Will print nothing if there was nothing to scrape
 ## License
+Copyright © 2013 The JetFetch Project
 
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0
