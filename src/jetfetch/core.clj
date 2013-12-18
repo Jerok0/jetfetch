@@ -21,5 +21,3 @@
         table (get-table contents)
         info-map (mapper table)]
     (clojure.pprint/print-table info-map)))
-
-;(clojure.pprint/print-table (apply -main (rest *command-line-args*)))
