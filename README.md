@@ -8,7 +8,7 @@ are in the pipeline
 Clone this repo.
 
 ## Usage
-  $ java -jar jetfetch-0.1.0-standalone.jar origin-city destination-city
+    $ java -jar jetfetch-0.1.0-standalone.jar origin-city destination-city
 ## Options
 Currently only two required arguments must be passed to the jar, the origin city and the destination
 ## Examples
